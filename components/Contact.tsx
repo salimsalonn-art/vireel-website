@@ -25,7 +25,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="text-sm text-slate-400">Email Me</p>
-                <p className="font-semibold">your.email@example.com</p>
+                <p className="font-semibold">info@vireelagency.com</p>
               </div>
             </div>
             
@@ -34,8 +34,8 @@ export default function Contact() {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
               </div>
               <div>
-                <p className="text-sm text-slate-400">WhatsApp</p>
-                <p className="font-semibold">+1 (555) 000-0000</p>
+                <p className="text-sm text-slate-400">Phone Number</p>
+                <p className="font-semibold">+1 ‪(301) 686-7740‬</p>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Contact() {
               
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">Email</label>
-                <input type="email" name="email" required className="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none text-white transition-all" placeholder="you@example.com" />
+                <input type="email" name="email" required className="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none text-white transition-all" placeholder="info@vireelagency.com" />
                 <ValidationError prefix="Email" field="email" errors={state.errors} className="text-red-400 text-sm mt-2" />
               </div>
               
