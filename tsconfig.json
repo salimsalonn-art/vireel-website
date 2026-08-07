@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/privacy/page.jsx", "app/services/web-development/page.jsx", "app/services/mobile-app-development/page.jsx", "app/services/maintenance-and-support/page.jsx", "app/services/ads/page.jsx"  ],
   "exclude": ["node_modules"]
 }
