@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Website & App Maintenance Services | DevAgency",
+  title: "Website & App Maintenance Services | Vireel Agency",
   description: "Keep your digital platforms fast, secure, and bug-free with our dedicated maintenance, troubleshooting, and support services.",
 };
 

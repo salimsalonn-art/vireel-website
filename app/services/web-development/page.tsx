@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Custom Web Development Services | DevAgency",
+  title: "Custom Web Development Services | Vireel Agency",
   description: "Stop relying solely on social media. We build fast, responsive, and secure custom websites that you actually own and control.",
 };
 

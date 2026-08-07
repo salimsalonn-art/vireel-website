@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Custom Mobile App Development | DevAgency",
+  title: "Custom Mobile App Development | Vireel Agency",
   description: "Reach your customers anywhere with high-performance, cross-platform mobile applications for iOS and Android.",
 };
 

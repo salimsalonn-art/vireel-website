@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "DevAgency", 
+  title: "Vireel Agency", 
   description: "We build fast, affordable websites and mobile apps.",
 };
 
