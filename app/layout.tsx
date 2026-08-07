@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer"; // 1. Added Footer import
+import Footer from "@/components/Footer"; 
+import { Analytics } from "@vercel/analytics/next"; // 1. Add the import up here
 import "./globals.css";
 
 // Configure Poppins
@@ -35,6 +36,10 @@ export default function RootLayout({
         </main>
 
         <Footer /> {/* 3. Added Footer right at the bottom */}
+        
+        {/* 4. DROP THE COMPONENT HERE! */}
+        <Analytics /> 
+        
       </body>
     </html>
   );
