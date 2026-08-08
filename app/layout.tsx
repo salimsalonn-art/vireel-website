@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer"; 
-import { Analytics } from "@vercel/analytics/next"; // 1. Add the import up here
+import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 import "./globals.css";
 
 // Configure Poppins
@@ -30,15 +31,23 @@ export default function RootLayout({
       <body className="font-sans min-h-full flex flex-col">
         <Navbar /> 
         
-        {/* 2. Wrapped children in main with flex-grow to push footer down */}
         <main className="flex-grow">
           {children}
         </main>
 
-        <Footer /> {/* 3. Added Footer right at the bottom */}
+        <Footer /> 
         
-        {/* 4. DROP THE COMPONENT HERE! */}
         <Analytics /> 
+        
+        <Script id="microsoft-clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "xz0dmo68ra");
+          `}
+        </Script>
         
       </body>
     </html>
