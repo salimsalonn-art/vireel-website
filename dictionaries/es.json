@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "demos": "Demos",
+    "pricing": "Precios"
+  },
+  "demos": {
+    "tag": "Plantillas por Industria",
+    "title": "Vea Lo Que Podemos Construir Para Usted",
+    "description": "Explore nuestros diseños de alta conversión diseñados específicamente para el nicho de su negocio.",
+    "gymTitle": "Gimnasio y Fitness",
+    "gymDesc": "Páginas de destino de gran energía con horarios de clases, biografías de entrenadores e inscripciones integradas.",
+    "restaurantTitle": "Restaurante y Café",
+    "restaurantDesc": "Menús digitales atractivos, reservas de mesas sencillas y sistemas de pedidos en línea fluídos.",
+    "sportsTitle": "Club de Fútbol Local",
+    "sportsDesc": "Perfecto para academias de fútbol locales. Muestre calendarios de torneos, plantillas juveniles o incluso integre un álbum de cromos digital.",
+    "shopTitle": "Tienda de Comercio Electrónico",
+    "shopDesc": "Galerías de productos elegantes, pagos seguros y enlaces fluídos para dirigir el tráfico directamente a su tienda.",
+    "dentistTitle": "Clínica Dental",
+    "dentistDesc": "Diseños profesionales que generan confianza con portales de pacientes, listas de servicios y reservas de citas en línea."
+  },
+  "hero": {
+    "titleStart": "Construimos rápidos y asequibles ",
+    "titleHighlight": "sitios web y apps móviles.",
+    "subtitle": "Consiga más clientes con una presencia digital que realmente funciona. Nos especializamos en soluciones multiplataforma que generan resultados reales.",
+    "button": "Pedir Presupuesto Gratis"
+  },
+  "pricing": {
+    "badge": "Inversión",
+    "title": "Precios Simples y Transparentes",
+    "web": {
+      "title": "Desarrollo Web",
+      "desc": "Perfecto para empresas locales que necesitan una presencia digital rápida y moderna.",
+      "price": "Desde $150",
+      "f1": "Construcción a medida en React",
+      "f2": "Diseño adaptable a móviles",
+      "f3": "Optimización SEO",
+      "button": "Solicitar Presupuesto"
+    },
+    "app": {
+      "badge": "Más Popular",
+      "title": "Aplicaciones Móviles",
+      "desc": "Aplicaciones multiplataforma completas listas para la App Store y Google Play.",
+      "price": "Presupuesto a Medida",
+      "f1": "Sensación nativa en iOS y Android",
+      "f2": "Interfaz y mecánicas personalizadas",
+      "f3": "Integración de monetización",
+      "button": "Hablemos"
+    }
+  },
+  "services": {
+    "badge": "Qué Hacemos",
+    "title": "Soluciones Digitales Expertas",
+    "subtitle": "Desde plataformas web de alto rendimiento hasta atractivas experiencias móviles y marketing dirigido, construimos productos digitales que generan resultados.",
+    "readMore": "Leer Más",
+    "web": {
+      "title": "Desarrollo Web",
+      "desc": "Aplicaciones web rápidas, seguras y responsivas construidas con Node.js, React y Tailwind CSS. Creamos plataformas personalizadas adaptadas a sus necesidades."
+    },
+    "ads": {
+      "title": "Anuncios en Redes Sociales",
+      "desc": "Campañas publicitarias basadas en datos en Facebook, Instagram, TikTok y más para capturar a su audiencia objetivo y maximizar su retorno de inversión."
+    },
+    "mobile": {
+      "title": "Desarrollo de Apps Móviles",
+      "desc": "Construimos aplicaciones móviles multiplataforma utilizando tecnologías modernas como React Native, ofreciendo rendimiento nativo para iOS y Android."
+    },
+    "maint": {
+      "title": "Mantenimiento y Soporte",
+      "desc": "Actualizaciones continuas, gestión de notificaciones push, corrección de errores y monitoreo para asegurar que sus activos digitales funcionen perfectamente."
+    }
+  },
+  "contact": {
+    "title": "Construyamos algo genial.",
+    "description": "¿Tienes un proyecto en mente? Envíame un mensaje con un breve resumen y me pondré en contacto contigo para programar una charla.",
+    "emailMe": "Envíame un correo",
+    "phone": "Número de teléfono",
+    "successTitle": "¡Mensaje Enviado!",
+    "successDesc": "Gracias por contactarnos. Te responderemos en 2 a 3 días hábiles.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu Nombre",
+    "emailLabel": "Correo",
+    "msgLabel": "Cuéntame sobre tu proyecto",
+    "msgPlaceholder": "Estoy buscando...",
+    "sending": "Enviando...",
+    "sendBtn": "Enviar Mensaje"
+  },
+  "footer": {
+    "desc": "Construyendo sitios web modernos y ultrarrápidos, y aplicaciones móviles multiplataforma para elevar su negocio en el mundo digital.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "contact": "Contáctenos",
+    "connect": "Conectar",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "terms": {
+    "seoTitle": "Términos de Servicio | Vireel Agency",
+    "seoDesc": "Términos y condiciones para el uso de los servicios y el sitio web de Vireel Agency.",
+    "back": "← Volver al Inicio",
+    "h1": "Términos de Servicio",
+    "lastUpdated": "Última actualización: Agosto de 2026",
+    "s1Title": "1. Aceptación de los Términos",
+    "s1Text": "Al acceder a nuestro sitio web y utilizar nuestros servicios de agencia digital, usted acepta y acuerda estar sujeto a los términos y disposiciones de este acuerdo. Si no acepta cumplir con estos términos, no utilice nuestros servicios.",
+    "s2Title": "2. Descripción de los Servicios",
+    "s2Text": "Vireel Agency proporciona desarrollo web personalizado, desarrollo de aplicaciones móviles, mantenimiento digital y servicios de publicidad en redes sociales. Los detalles específicos de cualquier proyecto, incluidos los plazos, los entregables y los costos, se describirán en una Declaración de Trabajo (SOW) formal y separada o en un contrato de proyecto proporcionado al cliente.",
+    "s3Title": "3. Propiedad Intelectual",
+    "s3Text": "A menos que se acuerde explícitamente lo contrario en un contrato formal, Vireel Agency retiene los derechos sobre el código subyacente, los marcos y las bibliotecas reutilizables utilizados en nuestros proyectos. Tras el pago total por los servicios prestados, a los clientes se les otorga una licencia para usar el producto entregado final para el propósito comercial previsto.",
+    "s4Title": "4. Limitación de Responsabilidad",
+    "s4Text": "Vireel Agency no será responsable de ningún daño directo, indirecto, incidental, especial o consecuente resultante del uso o la incapacidad de utilizar nuestros servicios, incluidos, entre otros, la pérdida de beneficios, datos o interrupciones comerciales.",
+    "s5Title": "5. Modificaciones a los Términos",
+    "s5Text": "Nos reservamos el derecho de modificar estos Términos de Servicio en cualquier momento. Su uso continuado del sitio y de nuestros servicios tras cualquier cambio significa su aceptación de los nuevos términos."
+  }
+}

@@ -1,6 +1,21 @@
 import Link from 'next/link';
 
-export default function Footer() {
+interface FooterProps {
+  lang: string;
+  dict: {
+    desc: string;
+    quickLinks: string;
+    services: string;
+    pricing: string;
+    contact: string;
+    connect: string;
+    rights: string;
+    privacy: string;
+    terms: string;
+  };
+}
+
+export default function Footer({ lang, dict }: FooterProps) {
   return (
     <footer className="bg-slate-950 text-slate-300 py-16 border-t border-slate-900">
       <div className="max-w-5xl mx-auto px-6">
@@ -10,34 +25,33 @@ export default function Footer() {
           
           {/* Brand & Description */}
           <div className="md:col-span-2">
-            {/* Logo - Vireel with pink and purple text */}
-            <Link href="/" className="font-extrabold text-2xl tracking-tighter mb-4 inline-block hover:opacity-80 transition-opacity">
+            <Link href={`/${lang}`} className="font-extrabold text-2xl tracking-tighter mb-4 inline-block hover:opacity-80 transition-opacity">
               <span className="text-pink-500">Vi</span><span className="text-purple-500">reel</span>
             </Link>
             <p className="text-sm text-slate-400 max-w-sm mt-2 leading-relaxed">
-              Building blazing fast, modern websites and cross-platform mobile applications to elevate your business in the digital world.
+              {dict.desc}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-semibold mb-4 tracking-wide text-sm uppercase">Quick Links</h4>
+            <h4 className="text-white font-semibold mb-4 tracking-wide text-sm uppercase">{dict.quickLinks}</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="/#services" className="text-slate-400 hover:text-purple-400 transition-colors">Services</Link>
+                <Link href={`/${lang}/#services`} className="text-slate-400 hover:text-purple-400 transition-colors">{dict.services}</Link>
               </li>
               <li>
-                <Link href="/#pricing" className="text-slate-400 hover:text-purple-400 transition-colors">Pricing</Link>
+                <Link href={`/${lang}/#pricing`} className="text-slate-400 hover:text-purple-400 transition-colors">{dict.pricing}</Link>
               </li>
               <li>
-                <Link href="/#contact-section" className="text-slate-400 hover:text-purple-400 transition-colors">Contact Us</Link>
+                <Link href={`/${lang}/#contact-section`} className="text-slate-400 hover:text-purple-400 transition-colors">{dict.contact}</Link>
               </li>
             </ul>
           </div>
 
           {/* Socials / Connect */}
           <div>
-            <h4 className="text-white font-semibold mb-4 tracking-wide text-sm uppercase">Connect</h4>
+            <h4 className="text-white font-semibold mb-4 tracking-wide text-sm uppercase">{dict.connect}</h4>
             <div className="flex space-x-4 mb-4">
               
               {/* Instagram Icon */}
@@ -68,7 +82,6 @@ export default function Footer() {
 
             </div>
             
-            {/* Updated email to vireel */}
             <a href="mailto:info@vireel.com" className="text-sm text-slate-400 hover:text-white transition-colors">
               info@vireel.com
             </a>
@@ -78,13 +91,12 @@ export default function Footer() {
         {/* Bottom Bar: Copyright & Legal */}
         <div className="pt-8 border-t border-slate-800/60 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
           <p className="mb-4 md:mb-0">
-            {/* Updated copyright name */}
-            &copy; {new Date().getFullYear()} Vireel. All rights reserved.
+            &copy; {new Date().getFullYear()} Vireel. {dict.rights}
           </p>
           <div className="flex space-x-6">
            <div className="flex space-x-6">
-            <Link href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-slate-300 transition-colors">Terms of Service</Link>
+            <Link href={`/${lang}/privacy`} className="hover:text-slate-300 transition-colors">{dict.privacy}</Link>
+            <Link href={`/${lang}/terms`} className="hover:text-slate-300 transition-colors">{dict.terms}</Link>
           </div>
           </div>
         </div>

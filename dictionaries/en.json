@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "services": "Services",
+    "demos": "Demos",
+    "pricing": "Pricing"
+  },
+  "demos": {
+    "tag": "Industry Templates",
+    "title": "See What We Can Build For You",
+    "description": "Explore our high-converting layouts designed specifically for your business niche.",
+    "gymTitle": "Gym & Fitness",
+    "gymDesc": "High-energy landing pages with class schedules, trainer bios, and integrated membership sign-ups.",
+    "restaurantTitle": "Restaurant & Cafe",
+    "restaurantDesc": "Mouth-watering digital menus, easy table reservations, and seamless online ordering systems.",
+    "sportsTitle": "Local Soccer Club",
+    "sportsDesc": "Perfect for local soccer academies. Showcase tournament schedules, youth rosters, or even integrate a digital sticker album portal for players.",
+    "shopTitle": "E-Commerce Store",
+    "shopDesc": "Sleek product galleries, secure checkouts, and seamless links to funnel traffic directly to your storefront.",
+    "dentistTitle": "Dental Clinic",
+    "dentistDesc": "Trust-building, professional designs featuring patient portals, service lists, and easy online appointment booking."
+  },
+  "hero": {
+    "titleStart": "We build fast, affordable ",
+    "titleHighlight": "websites and mobile apps.",
+    "subtitle": "Get more customers with a digital presence that actually works. We specialize in cross-platform solutions that drive real results.",
+    "button": "Get a Free Quote"
+  },
+  "pricing": {
+    "badge": "Investment",
+    "title": "Simple, Transparent Pricing",
+    "web": {
+      "title": "Web Development",
+      "desc": "Perfect for local businesses needing a fast, modern digital presence.",
+      "price": "Starting at $150",
+      "f1": "Custom React Web Build",
+      "f2": "Mobile Responsive Design",
+      "f3": "SEO Optimization",
+      "button": "Request a Quote"
+    },
+    "app": {
+      "badge": "Most Popular",
+      "title": "Mobile Apps",
+      "desc": "Full cross-platform applications ready for the App Store and Google Play.",
+      "price": "Custom Quote",
+      "f1": "iOS and Android Native Feel",
+      "f2": "Custom UI & Mechanics",
+      "f3": "Monetization Integration",
+      "button": "Let's Discuss"
+    }
+  },
+  "services": {
+    "badge": "What We Do",
+    "title": "Expert Digital Solutions",
+    "subtitle": "From high-performance web platforms to engaging mobile experiences and targeted marketing, we build digital products that drive results.",
+    "readMore": "Read More",
+    "web": {
+      "title": "Web Development",
+      "desc": "Fast, responsive, and secure web applications built with Node.js, React, and Tailwind CSS. We create custom platforms tailored directly to your business needs."
+    },
+    "ads": {
+      "title": "Social Media Ads",
+      "desc": "Data-driven advertising campaigns across Facebook, Instagram, TikTok, and more to capture your target audience and maximize your Return on Investment."
+    },
+    "mobile": {
+      "title": "Mobile App Development",
+      "desc": "We build cross-platform mobile applications using modern frameworks like React Native, delivering native performance and exceptional user experiences for iOS and Android."
+    },
+    "maint": {
+      "title": "Maintenance & Support",
+      "desc": "Continuous updates, push notification management, bug fixes, and performance monitoring to ensure your digital assets run flawlessly long after launch."
+    }
+  },
+  "contact": {
+    "title": "Let's build something great.",
+    "description": "Have a project in mind? Drop me a message with a brief outline, and I'll get back to you to schedule a quick chat.",
+    "emailMe": "Email Me",
+    "phone": "Phone Number",
+    "successTitle": "Message Sent!",
+    "successDesc": "Thank you for reaching out. We will get back to you in 2 to 3 business days.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your Name",
+    "emailLabel": "Email",
+    "msgLabel": "Tell me about your project",
+    "msgPlaceholder": "I'm looking for...",
+    "sending": "Sending...",
+    "sendBtn": "Send Message"
+  },
+  "footer": {
+    "desc": "Building blazing fast, modern websites and cross-platform mobile applications to elevate your business in the digital world.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact Us",
+    "connect": "Connect",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "terms": {
+    "seoTitle": "Terms of Service | Vireel Agency",
+    "seoDesc": "Terms and conditions for using Vireel Agency's services and website.",
+    "back": "← Back to Home",
+    "h1": "Terms of Service",
+    "lastUpdated": "Last Updated: August 2026",
+    "s1Title": "1. Acceptance of Terms",
+    "s1Text": "By accessing our website and utilizing our digital agency services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by these terms, please do not use our services.",
+    "s2Title": "2. Description of Services",
+    "s2Text": "Vireel Agency provides custom web development, mobile application development, digital maintenance, and social media advertising services. The specifics of any project, including timelines, deliverables, and costs, will be outlined in a separate, formal Statement of Work (SOW) or project contract provided to the client.",
+    "s3Title": "3. Intellectual Property",
+    "s3Text": "Unless otherwise explicitly agreed upon in a formal contract, Vireel Agency retains the rights to the underlying code, frameworks, and reusable libraries utilized in our projects. Upon full payment for services rendered, clients are granted a license to use the final delivered product for its intended business purpose.",
+    "s4Title": "4. Limitation of Liability",
+    "s4Text": "Vireel Agency shall not be held liable for any direct, indirect, incidental, special, or consequential damages resulting from the use or inability to use our services, including but not limited to loss of profits, data, or business interruptions.",
+    "s5Title": "5. Modifications to Terms",
+    "s5Text": "We reserve the right to modify these Terms of Service at any time. Your continued use of the site and our services following any changes signifies your acceptance of the new terms."
+  }
+}
