@@ -113,4 +113,23 @@
     "s5Title": "5. Modifications to Terms",
     "s5Text": "We reserve the right to modify these Terms of Service at any time. Your continued use of the site and our services following any changes signifies your acceptance of the new terms."
   }
+  ,
+  "privacy": {
+    "seoTitle": "Privacy Policy | Vireel Agency",
+    "seoDesc": "Learn how Vireel Agency collects, uses, and protects your data.",
+    "back": "← Back to Home",
+    "h1": "Privacy Policy",
+    "lastUpdated": "Last Updated: August 2026",
+    "s1Title": "1. Information We Collect",
+    "s1Text": "We collect information you provide directly to us when you request a quote, fill out a contact form, or communicate with us. This may include your name, email address, phone number, and details about your project or business. We also automatically collect certain basic analytics data (such as IP addresses and browser types) to improve our website experience.",
+    "s2Title": "2. How We Use Your Information",
+    "s2Text": "We use the information we collect to provide, maintain, and improve our web development, app development, and marketing services. Specifically, we use your data to communicate with you, process transactions, deliver requested services, and send administrative messages.",
+    "s3Title": "3. Information Sharing",
+    "s3Text": "Vireel Agency does not sell, trade, or rent your personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information with our business partners and trusted affiliates for the purposes outlined above.",
+    "s4Title": "4. Security",
+    "s4Text": "We adopt appropriate data collection, storage, and processing practices, as well as security measures, to protect against unauthorized access, alteration, disclosure, or destruction of your personal information and data stored on our site.",
+    "s5Title": "5. Contact Us",
+    "s5Text": "If you have any questions about this Privacy Policy or the practices of this site, please contact us at:",
+    "email": "info@vireel.com"
+  }
 }

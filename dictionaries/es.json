@@ -113,4 +113,23 @@
     "s5Title": "5. Modificaciones a los Términos",
     "s5Text": "Nos reservamos el derecho de modificar estos Términos de Servicio en cualquier momento. Su uso continuado del sitio y de nuestros servicios tras cualquier cambio significa su aceptación de los nuevos términos."
   }
+  ,
+  "privacy": {
+    "seoTitle": "Política de Privacidad | Vireel Agency",
+    "seoDesc": "Aprenda cómo Vireel Agency recopila, usa y protege sus datos.",
+    "back": "← Volver al Inicio",
+    "h1": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Agosto de 2026",
+    "s1Title": "1. Información que Recopilamos",
+    "s1Text": "Recopilamos la información que nos proporciona directamente cuando solicita un presupuesto, completa un formulario de contacto o se comunica con nosotros. Esto puede incluir su nombre, dirección de correo electrónico, número de teléfono y detalles sobre su proyecto o negocio. También recopilamos automáticamente ciertos datos analíticos básicos (como direcciones IP y tipos de navegadores) para mejorar la experiencia de nuestro sitio web.",
+    "s2Title": "2. Cómo Usamos Su Información",
+    "s2Text": "Usamos la información que recopilamos para proporcionar, mantener y mejorar nuestros servicios de desarrollo web, desarrollo de aplicaciones y marketing. Específicamente, usamos sus datos para comunicarnos con usted, procesar transacciones, entregar los servicios solicitados y enviar mensajes administrativos.",
+    "s3Title": "3. Intercambio de Información",
+    "s3Text": "Vireel Agency no vende, intercambia ni alquila su información de identificación personal a terceros. Podemos compartir información demográfica agregada genérica no vinculada a ninguna información de identificación personal con nuestros socios comerciales y afiliados de confianza para los fines descritos anteriormente.",
+    "s4Title": "4. Seguridad",
+    "s4Text": "Adoptamos prácticas adecuadas de recopilación, almacenamiento y procesamiento de datos, así como medidas de seguridad, para proteger contra el acceso no autorizado, alteración, divulgación o destrucción de su información personal y los datos almacenados en nuestro sitio.",
+    "s5Title": "5. Contáctenos",
+    "s5Text": "Si tiene alguna pregunta sobre esta Política de Privacidad o las prácticas de este sitio, contáctenos en:",
+    "email": "info@vireel.com"
+  }
 }
