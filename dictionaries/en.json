@@ -48,7 +48,7 @@
       "button": "Let's Discuss"
     }
   },
-  "services": {
+"services": {
     "badge": "What We Do",
     "title": "Expert Digital Solutions",
     "subtitle": "From high-performance web platforms to engaging mobile experiences and targeted marketing, we build digital products that drive results.",
@@ -68,7 +68,28 @@
     "maint": {
       "title": "Maintenance & Support",
       "desc": "Continuous updates, push notification management, bug fixes, and performance monitoring to ensure your digital assets run flawlessly long after launch."
+    },
+    "contractor": {
+      "title": "Contractor & Handyman SEO",
+      "desc": "Custom websites, customer review integrations, and targeted local ads designed specifically to keep your technicians busy and the phone ringing."
     }
+  },
+  "contractorsPage": {
+    "seoTitle": "Contractor & Handyman Marketing | Vireel Agency",
+    "seoDesc": "Digital solutions for contractors. We build websites, showcase your work, and run ads to get you more calls.",
+    "back": "← Back to Services",
+    "heroTitle": "More Calls. Better Jobs.",
+    "heroSubtitle": "We help contractors, technicians, and local service providers dominate their local market with custom digital solutions.",
+    "f1Title": "Custom Websites That Convert",
+    "f1Text": "We build fast, professional websites tailored specifically for home service businesses. We create a highly-optimized digital storefront that positions you as the top professional in your area.",
+    "f2Title": "Showcase Your Best Work",
+    "f2Text": "Stop losing your best before-and-after photos in your camera roll. We build dedicated portfolio sections where we regularly upload and display your past projects, visually proving your expertise to potential clients.",
+    "f3Title": "Customer Reviews & Trust",
+    "f3Text": "Homeowners hire who they trust. We integrate your 5-star customer reviews and feedback directly into your site's layout, turning your happy clients into your most powerful sales pitch.",
+    "f4Title": "Targeted Facebook & Instagram Ads",
+    "f4Text": "We don't just build the site; we drive local traffic to it. We design and manage highly targeted social media ad campaigns to capture local homeowners right when they need your services, keeping your phone ringing.",
+    "ctaTitle": "Ready to get more leads?",
+    "ctaBtn": "Get a Free Quote Today"
   },
   "contact": {
     "title": "Let's build something great.",
@@ -132,4 +153,5 @@
     "s5Text": "If you have any questions about this Privacy Policy or the practices of this site, please contact us at:",
     "email": "info@vireel.com"
   }
+  
 }

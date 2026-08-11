@@ -11,6 +11,7 @@ interface ServicesProps {
     ads: { title: string; desc: string; };
     mobile: { title: string; desc: string; };
     maint: { title: string; desc: string; };
+    contractor: { title: string; desc: string; };
   };
 }
 
@@ -28,7 +29,8 @@ export default function Services({ lang, dict }: ServicesProps) {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* Updated grid to lg:grid-cols-3 so 5 items wrap cleanly */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           
           {/* 1. Web Development Link */}
           <Link href={`/${lang}/services/web-development`} className="block group outline-none">
@@ -87,6 +89,22 @@ export default function Services({ lang, dict }: ServicesProps) {
               <h4 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-600 transition-colors">{dict.maint.title}</h4>
               <p className="text-slate-600 leading-relaxed mb-4 grow">
                 {dict.maint.desc}
+              </p>
+              <span className="text-indigo-600 font-semibold text-sm flex items-center">
+                {dict.readMore} <span className="ml-1 group-hover:translate-x-1 transition-transform">→</span>
+              </span>
+            </div>
+          </Link>
+
+          {/* 5. NEW: Contractor Services Link */}
+          <Link href={`/${lang}/services/contractors`} className="block group outline-none">
+            <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
+              <div className="h-48 w-full mb-6 overflow-hidden rounded-xl shadow-sm bg-white">
+                <img src="/contractor.png" alt="Contractor Services" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              </div>
+              <h4 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-600 transition-colors">{dict.contractor.title}</h4>
+              <p className="text-slate-600 leading-relaxed mb-4 grow">
+                {dict.contractor.desc}
               </p>
               <span className="text-indigo-600 font-semibold text-sm flex items-center">
                 {dict.readMore} <span className="ml-1 group-hover:translate-x-1 transition-transform">→</span>

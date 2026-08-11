@@ -48,7 +48,7 @@
       "button": "Hablemos"
     }
   },
-  "services": {
+"services": {
     "badge": "Qué Hacemos",
     "title": "Soluciones Digitales Expertas",
     "subtitle": "Desde plataformas web de alto rendimiento hasta atractivas experiencias móviles y marketing dirigido, construimos productos digitales que generan resultados.",
@@ -68,7 +68,28 @@
     "maint": {
       "title": "Mantenimiento y Soporte",
       "desc": "Actualizaciones continuas, gestión de notificaciones push, corrección de errores y monitoreo para asegurar que sus activos digitales funcionen perfectamente."
+    },
+    "contractor": {
+      "title": "SEO para Contratistas",
+      "desc": "Sitios web personalizados, integraciones de reseñas de clientes y anuncios locales dirigidos diseñados específicamente para mantener a sus técnicos ocupados."
     }
+  },
+  "contractorsPage": {
+    "seoTitle": "Marketing para Contratistas | Vireel Agency",
+    "seoDesc": "Soluciones digitales para contratistas. Construimos sitios web, mostramos su trabajo y publicamos anuncios para que reciba más llamadas.",
+    "back": "← Volver a Servicios",
+    "heroTitle": "Más Llamadas. Mejores Trabajos.",
+    "heroSubtitle": "Ayudamos a contratistas, técnicos y proveedores de servicios locales a dominar su mercado con soluciones digitales a medida.",
+    "f1Title": "Sitios Web Que Convierten",
+    "f1Text": "Construimos sitios web rápidos y profesionales adaptados específicamente a empresas de servicios. Creamos una vitrina digital altamente optimizada que lo posiciona como el mejor profesional de su área.",
+    "f2Title": "Muestre Su Mejor Trabajo",
+    "f2Text": "Deje de perder sus mejores fotos de 'antes y después'. Construimos secciones de portafolio dedicadas donde subimos y mostramos sus proyectos pasados, demostrando visualmente su experiencia.",
+    "f3Title": "Reseñas de Clientes y Confianza",
+    "f3Text": "Los propietarios contratan a quienes confían. Integramos sus reseñas y comentarios de 5 estrellas directamente en su sitio, convirtiendo a sus clientes satisfechos en su mejor argumento de venta.",
+    "f4Title": "Anuncios en Facebook e Instagram",
+    "f4Text": "No solo construimos el sitio; le enviamos tráfico local. Diseñamos y administramos campañas de anuncios altamente dirigidas para captar a propietarios locales justo cuando necesitan sus servicios, manteniendo su teléfono sonando.",
+    "ctaTitle": "¿Listo para conseguir más clientes?",
+    "ctaBtn": "Obtenga un Presupuesto Gratis"
   },
   "contact": {
     "title": "Construyamos algo genial.",
