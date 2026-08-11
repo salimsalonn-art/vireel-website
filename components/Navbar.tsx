@@ -47,6 +47,7 @@ export default function Navbar({ dict }: NavbarProps) {
           <span className="text-pink-500">Vi</span><span className="text-purple-500">reel</span>
         </Link>
 
+        {/* --- DESKTOP MENU --- */}
         <div className="hidden md:flex items-center space-x-8 relative z-[10000]">
           
           <Link href={`/${lang}/#services`} className="text-sm font-semibold text-slate-600 hover:text-indigo-600 transition-colors">
@@ -84,7 +85,7 @@ export default function Navbar({ dict }: NavbarProps) {
             {dict.pricing}
           </Link>
           
-          {/* THE NEW DESKTOP FLAGS (Fixes Windows Letter Bug) */}
+          {/* DESKTOP FLAGS */}
           <div className="flex items-center space-x-4 pl-6 border-l border-slate-200">
             <Link 
               href={switchLang('en')} 
@@ -103,17 +104,41 @@ export default function Navbar({ dict }: NavbarProps) {
           </div>
         </div>
 
-        <button 
-          className="md:hidden p-2 text-slate-600 focus:outline-none relative z-[10000]"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        >
-          <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
-          </svg>
-        </button>
+        {/* --- MOBILE HEADER CONTROLS --- */}
+        <div className="md:hidden flex items-center space-x-4 relative z-[10000]">
+          
+          {/* MOBILE FLAGS (Always visible next to the menu) */}
+          <div className="flex items-center space-x-3 border-r border-slate-200 pr-4">
+            <Link 
+              href={switchLang('en')} 
+              className={`transition-all duration-200 ${lang === 'en' ? 'opacity-100 scale-110 shadow-sm' : 'opacity-40 grayscale'}`} 
+              title="English"
+            >
+              <img src="https://flagcdn.com/w40/us.png" alt="English" className="w-5 rounded-sm" />
+            </Link>
+            <Link 
+              href={switchLang('es')} 
+              className={`transition-all duration-200 ${lang === 'es' ? 'opacity-100 scale-110 shadow-sm' : 'opacity-40 grayscale'}`} 
+              title="Español"
+            >
+              <img src="https://flagcdn.com/w40/es.png" alt="Español" className="w-5 rounded-sm" />
+            </Link>
+          </div>
+
+          {/* HAMBURGER BUTTON */}
+          <button 
+            className="p-1 text-slate-600 focus:outline-none"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
+            </svg>
+          </button>
+        </div>
         
       </div>
 
+      {/* --- MOBILE DROPDOWN MENU --- */}
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white border-t border-slate-100 shadow-xl flex flex-col py-4 px-6 space-y-5 z-[9999]">
           <Link href={`/${lang}/#services`} className="text-lg font-semibold text-slate-700">{dict.services}</Link>
@@ -130,24 +155,6 @@ export default function Navbar({ dict }: NavbarProps) {
           </div>
 
           <Link href={`/${lang}/#pricing`} className="text-lg font-semibold text-slate-700">{dict.pricing}</Link>
-          
-          {/* THE NEW MOBILE FLAGS (Fixes Windows Letter Bug) */}
-          <div className="flex items-center space-x-6 pt-4 border-t border-slate-100 mt-2">
-            <Link 
-              href={switchLang('en')} 
-              className={`flex items-center text-lg font-semibold transition-opacity ${lang === 'en' ? 'opacity-100 text-slate-800' : 'opacity-40 text-slate-500 grayscale'}`}
-            >
-              <img src="https://flagcdn.com/w40/us.png" alt="English" className="w-6 rounded-sm mr-2" />
-              English
-            </Link>
-            <Link 
-              href={switchLang('es')} 
-              className={`flex items-center text-lg font-semibold transition-opacity ${lang === 'es' ? 'opacity-100 text-slate-800' : 'opacity-40 text-slate-500 grayscale'}`}
-            >
-              <img src="https://flagcdn.com/w40/es.png" alt="Español" className="w-6 rounded-sm mr-2" />
-              Español
-            </Link>
-          </div>
         </div>
       )}
     </nav>
