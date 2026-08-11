@@ -34,10 +34,10 @@ export default async function ContractorsServicePage({
           {dict.contractorsPage.back}
         </Link>
 
-        {/* HERO SECTION: Light, airy style with custom background.png */}
+        {/* HERO SECTION: Light, airy style with custom background0.png */}
         <div 
           className="rounded-3xl py-20 px-8 md:py-28 md:px-16 mb-16 text-center relative overflow-hidden bg-cover bg-center shadow-sm border border-slate-100"
-          style={{ backgroundImage: "url('/background.png')" }}
+          style={{ backgroundImage: "url('/background0.png')" }}
         >
           {/* Subtle white overlay just in case the background image is too busy */}
           <div className="absolute inset-0 bg-white/40 backdrop-blur-[1px]"></div>
